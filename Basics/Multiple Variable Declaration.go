@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const PI = 3.14;
+
 func main() {
 	// Start your code....
 	var a, b, c, d int = 2, 5, 3, 7
@@ -9,6 +11,9 @@ func main() {
 	fmt.Println(b);
 	fmt.Println(c);
 	fmt.Println(d);
+
+	// pirnt constant: 
+	fmt.Println(PI);
 }
 
 
