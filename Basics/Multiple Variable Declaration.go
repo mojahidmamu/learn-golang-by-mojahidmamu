@@ -10,3 +10,9 @@ func main() {
 	fmt.Println(c);
 	fmt.Println(d);
 }
+
+
+//  Naming Rule: 
+	// i. camel case:   myVariableName = "John"
+	// ii. Pascal Case: MyVariableName = "John"
+	// iii. snake case: my_variable_name = "John"
