@@ -18,9 +18,14 @@ func main() {
 	arr2 := [5]int{1, 2, 3, 5, 8}
    var cars = [4] string{"Volvo", "BMW", "Ford", "Mazda"}; // data-type : string
 
+   
+	fmt.Println(arr1[0]) // access element 
+   arr1[0] = 852;
 	fmt.Println(arr1[0]) // access element 
 	fmt.Println(arr1)
 	fmt.Println(arr2)
    fmt.Println(cars);
+   fmt.Println(len(cars)); // langth of an array... 
    fmt.Println(cars[2]); // access element 
+   fmt.Print(cars); 
 }
