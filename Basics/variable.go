@@ -12,4 +12,6 @@ func main() {
 	fmt.Println(student1)
 	fmt.Println(student2)
 	fmt.Println(x)
+
+	
 }

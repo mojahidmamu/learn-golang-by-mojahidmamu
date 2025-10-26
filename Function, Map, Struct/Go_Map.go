@@ -14,4 +14,7 @@ func main() {
 	a["year"] = "2025"   // update element
 	a["color"] = "Black" // adding element
 	fmt.Println(a)
+
+	delete(a, "year") // remove year from map
+	fmt.Println(a)
 }
