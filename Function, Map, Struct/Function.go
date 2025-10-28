@@ -22,7 +22,7 @@ func main() {
 	message()
 
 	// 
-	familyName("Salma Tasnim", 20)
+	familyName("Salsa Tasnim", 20)
 	familyName("Abdullah all Mojahid",18)
 	familyName("Halimatus Sadia",10	)
 
