@@ -28,4 +28,9 @@ func main() {
 
 	// call the function: Add
 	fmt.Println(addNum(10,20))
+
+	a := 100
+	b := 20
+	sum := a + b;
+	fmt.Println(sum)
 }
