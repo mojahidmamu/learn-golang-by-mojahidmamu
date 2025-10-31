@@ -7,5 +7,5 @@ func main() {
 		fmt.Println("Hello" , name)
 	}
 
-	greet("Abdullah all Mojahid")
+	greet("Abdullah all Mojahid") // Immediately Invoked Function Expression(IIFE)
 }
