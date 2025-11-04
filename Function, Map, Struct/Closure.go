@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	// Start your code....
 	// Closure example
+	count := 0
 	counter := func() func() int {
-		count := 0
 		return func() int {
 			count++
 			return count
