@@ -15,6 +15,6 @@ func main() {
 	p2.Age = 31
 
 	fmt.Println("p1 Age:", p1.Age)
-	fmt.Println("p2 Age:", p2.Age)
+	fmt.Println("p2 Age:", p2.Age) 	
 	// End your code....
 }
