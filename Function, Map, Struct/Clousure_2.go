@@ -26,8 +26,6 @@ func call() {
 	incr2 := outer()
 	incr2()
 	incr2()
-
-
 }
 
 func main() {
