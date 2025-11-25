@@ -16,5 +16,9 @@ func main() {
 	t := []int{10,20}
 	s = append(s, t...)
 
+	// delete a particular element by index: 
+	i := 3
+	s = append(s[:i] , s[:i]...)
+
 	
 }
