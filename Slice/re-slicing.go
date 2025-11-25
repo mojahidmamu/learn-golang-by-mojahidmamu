@@ -11,4 +11,4 @@ func main() {
 
 	fmt.Println(a, "length", len(a), "capacity", cap(a))
 	fmt.Println(b, "length", len(b), "capacity", cap(b))
-}
+}				
