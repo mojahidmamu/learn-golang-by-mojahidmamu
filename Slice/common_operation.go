@@ -12,13 +12,17 @@ func main() {
 	// a lot at a time:
 	s = append(s, 5, 6, 7, 8) // [1 2 3 4 5 6 7 8]
 
-	// add another slice: 
-	t := []int{10,20}
+	// add another slice:
+	t := []int{10, 20}
 	s = append(s, t...)
 
-	// delete a particular element by index: 
+	// delete a particular element by index:
 	i := 3
-	s = append(s[:i] , s[:i]...)
+	s = append(s[:i], s[:i]...)
 
-	
+	// copy:
+	dst := make([]int, len(s))
+	copy(dst, s)
+
+	fmt.Println(s)
 }
