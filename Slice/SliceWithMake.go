@@ -10,3 +10,4 @@ func main() {
 	fmt.Println("Len of s = ", len(s))
 	fmt.Println("cap of s = ", cap(s))
 }
+	
