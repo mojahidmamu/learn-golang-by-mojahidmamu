@@ -27,13 +27,13 @@ func main() {
 		var x int
 		_, err := fmt.Sscanf(text, "%d", &x)
 
-		if err == nil {
-			fmt.Println("")
+		if err != nil {
+			fmt.Println("Invalid input, please enter a number or 'end'")
 			continue
 		}
 
 		numbers = append(numbers, x)
 	}
-	fmt.Println("You entered :", numbers)
+	fmt.Println("You entered :" , numbers)
 
 }
