@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// variadic_function: 
+// variadic_function:   
 func variadic(numbers ...int) {
 	fmt.Println(numbers)
 	fmt.Println(len(numbers))
