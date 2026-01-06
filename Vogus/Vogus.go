@@ -3,9 +3,11 @@ import "fmt"
 
 func main() {
    // Start your code....
-   a := 10
-   b := 20
-   sum := a + b
-   fmt.Println("Sum:", sum)
+   var a int8 = 42
+   var b uint8 = 20
+   
+
+    
+   fmt.Println(a, b)
     
 }
