@@ -5,9 +5,6 @@ import "fmt"
 func main() {
 	// Start your code....
 
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Println("Recovered from panic:", r)
-		}
-	}()
+	defer fmt.Println("Clean up") // This will execute when the function exits, even if there's a panic
+	panic("Something wrong")      // This will trigger a panic
 }
