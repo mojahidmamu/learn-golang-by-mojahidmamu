@@ -10,6 +10,10 @@ func a() {
 
 	fmt.Println("i:", i) // prints i: 1
 
+	for i := 0; i < 3; i++ {
+		defer fmt.Println("defer in loop:", i) // defer statements capture i = 0, 1, 2
+	}
+
 }
 
 func main() {
