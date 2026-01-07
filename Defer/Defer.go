@@ -6,6 +6,8 @@ func a() {
 	i := 0
 	defer fmt.Println("defer:", i) // defer statement captures the current value of i = 0
 	i++
+	defer fmt.Println("defer:", i) // defer statement captures the current value of i = 0
+
 	fmt.Println("i:", i) // prints i: 1
 
 }
