@@ -26,5 +26,5 @@ func main() {
 	fmt.Println(cars)
 	fmt.Println(len(cars)) // langth of an array...
 	fmt.Println(cars[2])   // access element
-	fmt.Print(cars) 
+	fmt.Print(cars)
 }

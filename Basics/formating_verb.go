@@ -17,7 +17,8 @@ func main() {
 	fmt.Printf("%#v\n", txt)
 	fmt.Printf("%T\n", txt)
 
-	var age = 15
+	var age = 15        
+	
 
 	fmt.Printf("%b\n", age)
 	fmt.Printf("%d\n", age)

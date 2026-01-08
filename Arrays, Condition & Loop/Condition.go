@@ -15,7 +15,7 @@ func main() {
 	// 	fmt.Println("Good evening.")
 	// }
 
-	// nested if-else conditoin:
+	// nested if-else condition:
 	var num = 20
 	if num >= 10 {
 		fmt.Println("Num is more than 10.")
