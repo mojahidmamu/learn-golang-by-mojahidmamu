@@ -8,7 +8,7 @@ func main() {
 	if num > 15 {
 		fmt.Println("Num is greater than 15.")
 	}
-	else {
+	else if num <= 15 {
 		fmt.Println("Num is less than or equal to 15.")
 	}
 }
