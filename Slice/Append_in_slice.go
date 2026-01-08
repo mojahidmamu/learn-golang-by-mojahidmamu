@@ -10,4 +10,3 @@ func main() {
 	nums = append(nums, 4, 100, 200)
 	fmt.Println(nums, len(nums), cap(nums))
 }
-		
